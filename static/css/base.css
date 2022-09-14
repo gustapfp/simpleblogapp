@@ -1,5 +1,4 @@
-.base {
-    color: red;
+body {
     font-family: "Source Sans Pro", sans-serif;
     font-size: 18px;
 }
@@ -11,8 +10,29 @@ header {
 
 }
 
+header h1 a {
+    color: red;
+    text-decoration: none;
+    }
+    
+
 .post-entry {
     padding: auto;
     margin: auto;
     color: black;
 }
+
+.form{
+    color: black;
+}
+
+.nav-left {
+    margin-right: auto;
+}
+
+.nav-right {
+    display: flex;
+    padding-top: 2rem;
+    padding-right: 1em;
+    }
+    
